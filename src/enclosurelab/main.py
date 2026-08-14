@@ -1,14 +1,13 @@
-"""
-Enclosure Lab
-
-Main application entry point.
-"""
-
 from enclosurelab.driver import Driver
-from enclosurelab.driver.validator import DriverValidator
+from enclosurelab.project import Project
 
 
 def main() -> None:
+
+    project = Project(
+        name="Mini Column Array"
+    )
+
     driver = Driver(
         manufacturer="Dayton Audio",
         model="ND65-4",
@@ -20,9 +19,9 @@ def main() -> None:
         xmax=4.0,
     )
 
-    DriverValidator.validate(driver)
+    project.add_driver_definition(driver)
 
-    print(driver)
+    print(project)
 
 
 if __name__ == "__main__":
