@@ -7,11 +7,19 @@
 
 ---
 
+---
+
+Every engineering input should answer three questions:
+
+What is it?
+Why does it matter?
+How does it affect my design?
+
+---
+
 # Vision Statement
 
-Enclosure Lab is an intelligent loudspeaker engineering workbench that guides users from driver selection to a finished, validated loudspeaker enclosure through explainable engineering, optimization, and practical cabinet design.
-
-Unlike traditional enclosure calculators, Enclosure Lab does not begin by asking the user to choose an enclosure type. Instead, it begins by understanding the user's goals and recommends the most appropriate solution while clearly explaining every engineering decision.
+Enclosure Lab is an engineering design environment that helps users transform ideas into optimized loudspeaker systems. By combining acoustic simulation, design guidance, inventory management, engineering education, and creative exploration, Enclosure Lab assists both first-time builders and experienced loudspeaker engineers in making better design decisions.
 
 ---
 

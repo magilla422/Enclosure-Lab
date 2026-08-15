@@ -7,6 +7,10 @@
 
 ---
 
+"Enclosure Lab is not designed to calculate loudspeaker enclosures. It is designed to engineer complete loudspeaker systems."
+
+---
+
 # Vision Statement
 
 Enclosure Lab is an intelligent loudspeaker engineering workbench that guides users from driver selection to a finished, validated loudspeaker enclosure through explainable engineering, optimization, and practical cabinet design.
